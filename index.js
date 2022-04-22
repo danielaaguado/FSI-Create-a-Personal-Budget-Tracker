@@ -13,3 +13,8 @@ for(let i = 0; i < monthlyExpenseQuestions.length; i++){
     answer = parseFloat(window.prompt(monthlyExpenseQuestions[i]))
     monthlyExpenses = monthlyExpenses + answer
 }
+
+for(let i = 0; i < annualExpenseQuestions.length; i++){
+    answer = parseFloat(window.prompt(annualExpenseQuestions[i]))
+    annualExpenses = annualExpenses + answer
+}
