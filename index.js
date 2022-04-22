@@ -9,3 +9,7 @@ for(let i = 0; i < weeklyExpenseQuestions.length; i++){
     weeklyExpenses = weeklyExpenses + answer
 }
 
+for(let i = 0; i < monthlyExpenseQuestions.length; i++){
+    answer = parseFloat(window.prompt(monthlyExpenseQuestions[i]))
+    monthlyExpenses = monthlyExpenses + answer
+}
